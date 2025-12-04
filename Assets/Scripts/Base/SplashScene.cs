@@ -13,7 +13,7 @@ public class SplashScene : MonoBehaviour
         Application.targetFrameRate = 60;
         //  C:/code/Tidi-Cam-Casino/Assets/AssetBundles
         // https://storage.googleapis.com/kh9/AssetBundles/
-        string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");
+        string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "https://storage.googleapis.com/kh9/AssetBundles/");
         // storedUrl = "E:/code/khac/u/pr/Tidi-Cam-Casino/Assets/AssetBundles";
         m_BundleBD.CheckAndDownloadAssets(storedUrl, 1f,
             () =>
@@ -28,8 +28,7 @@ public class SplashScene : MonoBehaviour
 
         IEnumerator retry()
         {
-            while (BundleHandler.MAIN.BundleUrl == null || BundleHandler.MAIN.BundleUrl.Equals(""))
-                yield return new WaitForSeconds(1f);
+            while (string.IsNullOrEmpty(BundleHandler.MAIN.BundleUrl)) yield return new WaitForSeconds(1f);
             m_BundleBD.CheckAndDownloadAssets(BundleHandler.MAIN.BundleUrl, 0,
                 () =>
                 {
