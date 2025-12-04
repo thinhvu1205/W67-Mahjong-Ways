@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 1337165834
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 40152b497154daac81a2c9a38e7279ed
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d0b4c284cc7e207abf3d7e9b9962155
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9e7c95317c3bb6b84c71935b41ac4ca6
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+Assets:
+- Assets/Resources/GameView/Catte_Asset/res/animations/hitPot/skeleton.atlas.txt
+- Assets/Resources/GameView/Catte_Asset/res/animations/Lose/skeleton_Material.mat
+- Assets/Resources/GameView/Catte_Asset/res/animations/Lose/skeleton.atlas.txt
+- Assets/Resources/GameView/Catte_Asset/res/animations/Winfull/skeleton.png
+- Assets/Resources/GameView/Catte_Asset/res/animations/startGame/skeleton.json
+- Assets/Resources/GameView/Catte_Asset/res/animations/lose chaybai/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/Winfull/skeleton.atlas.txt
+- Assets/Resources/GameView/Catte_Asset/res/animations/Lose/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/startGame/skeleton.png
+- Assets/Resources/GameView/Catte_Asset/res/animations/Winfull/skeleton.json
+- Assets/Resources/GameView/Catte_Asset/res/animations/Lose/skeleton.png
+- Assets/Resources/GameView/Catte_Asset/res/animations/lose chaybai/skeleton.png
+- Assets/Resources/GameView/Catte_Asset/res/animations/startGame/skeleton_Material-Additive.mat
+- Assets/Resources/GameView/Catte_Asset/res/animations/hitPot/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/startGame/skeleton_Material.mat
+- Assets/Resources/GameView/Catte_Asset/res/animations/Winfull/skeleton_Material.mat
+- Assets/Resources/GameView/Catte_Asset/res/animations/startGame/skeleton.atlas.txt
+- Assets/Resources/GameView/Catte_Asset/res/animations/lose chaybai/skeleton_Material.mat
+- Assets/Resources/GameView/Catte_Asset/res/animations/startGame/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/Lose/skeleton.json
+- Assets/Resources/GameView/Catte_Asset/res/animations/Winfull/skeleton_Atlas.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/Winfull/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/lose chaybai/skeleton.atlas.txt
+- Assets/Resources/GameView/Catte_Asset/res/animations/hitPot/skeleton_Material-Additive.mat
+- Assets/Resources/GameView/Catte_Asset/res/animations/lose chaybai/skeleton_Atlas.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/startGame/skeleton_Atlas.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/lose chaybai/skeleton.json
+- Assets/Resources/GameView/Catte_Asset/res/animations/hitPot/skeleton.json
+- Assets/Resources/GameView/Catte_Asset/res/animations/hitPot/skeleton.png
+- Assets/Resources/GameView/Catte_Asset/res/animations/hitPot/skeleton_Material.mat
+- Assets/Resources/GameView/Catte_Asset/res/animations/hitPot/skeleton_Atlas.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/Lose/skeleton_Atlas.asset
+- Assets/Resources/GameView/Catte_Asset/res/animations/Winfull/skeleton_Material-Additive.mat
+Dependencies: []

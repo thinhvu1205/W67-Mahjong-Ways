@@ -1,0 +1,63 @@
+ManifestFileVersion: 0
+CRC: 3871463143
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1ccb1564e200505d181abd6c1915a895
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d0b4c284cc7e207abf3d7e9b9962155
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 65103bf026c995563732fb814be81ea7
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials
+Assets:
+- Assets/Resources/GameView/Xocdia/spine/dealer/skeleton_Material.mat
+- Assets/Resources/GameView/Xocdia/spine/xoc dia/xoc dia.atlas.txt
+- Assets/Resources/GameView/Xocdia/spine/dealer/skeleton.atlas.txt
+- Assets/Resources/GameView/Xocdia/spine/bet time/bet time.atlas.txt
+- Assets/Resources/GameView/Xocdia/spine/dealer/skeleton.png
+- Assets/Resources/GameView/Xocdia/spine/RoundGreen/skeleton_Material.mat
+- Assets/Resources/GameView/Xocdia/spine/RoundGreen/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Xocdia/spine/start game/start game.png
+- Assets/Resources/GameView/Xocdia/spine/xoc dia/xoc dia_Material.mat
+- Assets/Resources/GameView/Xocdia/spine/RoundGreen/skeleton.json
+- Assets/Resources/GameView/Xocdia/spine/dealer/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Xocdia/spine/xoc dia/xoc dia_Atlas.asset
+- Assets/Resources/GameView/Xocdia/spine/RoundGreen/skeleton_Atlas.asset
+- Assets/Resources/GameView/Xocdia/spine/start game/start game.atlas.txt
+- Assets/Resources/GameView/Xocdia/spine/start game/start game_Material.mat
+- Assets/Resources/GameView/Xocdia/spine/xoc dia/xoc dia_SkeletonData.asset
+- Assets/Resources/GameView/Xocdia/spine/xoc dia/xoc dia.json
+- Assets/Resources/GameView/Xocdia/spine/RoundGreen/skeleton.atlas.txt
+- Assets/Resources/GameView/Xocdia/spine/start game/start game.json
+- Assets/Resources/GameView/Xocdia/spine/xoc dia/xoc dia.png
+- Assets/Resources/GameView/Xocdia/spine/start game/start game_Atlas.asset
+- Assets/Resources/GameView/Xocdia/spine/bet time/bet time_Atlas.asset
+- Assets/Resources/GameView/Xocdia/spine/bet time/bet time_SkeletonData.asset
+- Assets/Resources/GameView/Xocdia/spine/RoundGreen/skeleton.png
+- Assets/Resources/GameView/Xocdia/spine/bet time/bet time.json
+- Assets/Resources/GameView/Xocdia/spine/bet time/bet time.png
+- Assets/Resources/GameView/Xocdia/spine/start game/start game_SkeletonData.asset
+- Assets/Resources/GameView/Xocdia/spine/dealer/skeleton_Atlas.asset
+- Assets/Resources/GameView/Xocdia/spine/bet time/bet time_Material.mat
+- Assets/Resources/GameView/Xocdia/spine/dealer/skeleton.json
+Dependencies: []

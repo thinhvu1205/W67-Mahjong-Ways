@@ -1,0 +1,62 @@
+
+skeleton.png
+size: 884,884
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+f
+  rotate: false
+  xy: 604, 63
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+o
+  rotate: false
+  xy: 2, 35
+  size: 304, 350
+  orig: 672, 500
+  offset: 5, 146
+  index: -1
+title
+  rotate: true
+  xy: 604, 193
+  size: 689, 152
+  orig: 691, 154
+  offset: 1, 1
+  index: -1
+title_cot
+  rotate: true
+  xy: 2, 6
+  size: 27, 191
+  orig: 27, 191
+  offset: 0, 0
+  index: -1
+txt_congratulation2
+  rotate: true
+  xy: 758, 468
+  size: 414, 124
+  orig: 415, 125
+  offset: 0, 1
+  index: -1
+txt_youwin2
+  rotate: true
+  xy: 734, 21
+  size: 170, 72
+  orig: 170, 72
+  offset: 0, 0
+  index: -1
+vang
+  rotate: false
+  xy: 2, 387
+  size: 485, 495
+  orig: 487, 500
+  offset: 1, 2
+  index: -1
+xoay
+  rotate: false
+  xy: 308, 73
+  size: 294, 312
+  orig: 300, 321
+  offset: 2, 8
+  index: -1

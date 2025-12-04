@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 1630,1630
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6-Pairs
+  rotate: false
+  xy: 2, 1188
+  size: 742, 440
+  orig: 750, 443
+  offset: 4, 1
+  index: -1
+Dragon
+  rotate: false
+  xy: 746, 2
+  size: 742, 440
+  orig: 750, 443
+  offset: 4, 1
+  index: -1
+Five-Consecutive-Pairs
+  rotate: false
+  xy: 746, 1188
+  size: 742, 440
+  orig: 750, 443
+  offset: 4, 1
+  index: -1
+Four-2s
+  rotate: true
+  xy: 2, 444
+  size: 742, 440
+  orig: 750, 443
+  offset: 4, 1
+  index: -1
+Four-3s
+  rotate: false
+  xy: 2, 2
+  size: 742, 440
+  orig: 750, 443
+  offset: 4, 1
+  index: -1
+Four-triples
+  rotate: true
+  xy: 444, 444
+  size: 742, 440
+  orig: 750, 443
+  offset: 4, 1
+  index: -1
+ef
+  rotate: false
+  xy: 886, 468
+  size: 675, 718
+  orig: 679, 728
+  offset: 2, 3
+  index: -1

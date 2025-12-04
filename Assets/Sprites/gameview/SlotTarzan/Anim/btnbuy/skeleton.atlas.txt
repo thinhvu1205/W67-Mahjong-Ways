@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 376,376
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bang
+  rotate: false
+  xy: 2, 2
+  size: 287, 109
+  orig: 289, 109
+  offset: 1, 0
+  index: -1
+buy
+  rotate: false
+  xy: 2, 235
+  size: 294, 137
+  orig: 298, 139
+  offset: 2, 1
+  index: -1
+buy tren
+  rotate: false
+  xy: 2, 113
+  size: 268, 120
+  orig: 268, 126
+  offset: 0, 6
+  index: -1
+buy trencam
+  rotate: true
+  xy: 298, 218
+  size: 88, 62
+  orig: 88, 62
+  offset: 0, 0
+  index: -1
+buycam
+  rotate: true
+  xy: 291, 7
+  size: 104, 82
+  orig: 106, 83
+  offset: 1, 0
+  index: -1
+light
+  rotate: true
+  xy: 272, 113
+  size: 103, 102
+  orig: 103, 104
+  offset: 0, 2
+  index: -1

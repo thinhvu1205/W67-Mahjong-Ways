@@ -1,0 +1,484 @@
+{
+"skeleton": {
+	"hash": "5hF7CEy+sJfEXjZgj3YgXmc60R4",
+	"spine": "3.8.99",
+	"x": -469.62,
+	"y": -251.23,
+	"width": 939.24,
+	"height": 629.31,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "TAMM", "parent": "root" },
+	{ "name": "Layer 34 copy 4", "parent": "TAMM", "x": -53.99, "y": 173.82 },
+	{ "name": "Layer 34 copy 5", "parent": "TAMM", "x": -49.15, "y": 136.51 },
+	{ "name": "Layer 34 copy 7", "parent": "TAMM", "x": -7, "y": 154.47 },
+	{ "name": "Layer 34 copy 8", "parent": "TAMM", "x": 4.74, "y": 198 },
+	{ "name": "Layer 34 copy 9", "parent": "TAMM", "x": 68.32, "y": 158.62 },
+	{ "name": "Layer 34 copy 10", "parent": "TAMM", "x": 69.01, "y": 204.91 },
+	{ "name": "Layer 34 copy 11", "parent": "TAMM", "x": -94.76, "y": 161.38 },
+	{ "name": "Layer 34 copy 13", "parent": "TAMM", "x": -29.11, "y": 220.12 },
+	{ "name": "Layer 34 copy 14", "parent": "TAMM", "x": 60.02, "y": 126.14 },
+	{ "name": "Layer 34 copy 15", "parent": "TAMM", "x": -67.12, "y": 213.21 },
+	{ "name": "Layer 34 copy 16", "parent": "TAMM", "x": 109.09, "y": 161.38 },
+	{ "name": "Layer 34 copy 17", "parent": "TAMM", "x": 21.33, "y": 249.14 },
+	{ "name": "Layer 34 copy 18", "parent": "TAMM", "x": 10.96, "y": 110.94 },
+	{ "name": "Layer 34 copy 19", "parent": "TAMM", "x": 111.16, "y": 211.82 },
+	{ "name": "Layer 34 copy 25", "parent": "root", "x": 113.97, "y": 343.11 },
+	{ "name": "Layer 34 copy 26", "parent": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 27", "parent": "root", "x": -48.19, "y": 343.11, "scaleX": 0.8196, "scaleY": 0.8196 },
+	{ "name": "Layer 34 copy 28", "parent": "Layer 34 copy 27" },
+	{ "name": "Layer 34 copy 29", "parent": "root", "x": -5.95, "y": 343.11, "scaleX": 0.3908, "scaleY": 0.3908 },
+	{ "name": "Layer 34 copy 30", "parent": "Layer 34 copy 29" },
+	{ "name": "Layer 34 copy 31", "parent": "root", "x": 80.89, "y": 343.11, "scaleX": 0.7, "scaleY": 0.7 },
+	{ "name": "Layer 34 copy 32", "parent": "Layer 34 copy 31" },
+	{ "name": "Layer 34 copy 33", "parent": "root", "x": 130.18, "y": 343.11, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "Layer 34 copy 34", "parent": "Layer 34 copy 33" },
+	{ "name": "Layer 34 copy 35", "parent": "root", "x": -5.95, "y": 343.11, "scaleX": 0.5054, "scaleY": 0.5054 },
+	{ "name": "Layer 34 copy 36", "parent": "Layer 34 copy 35" },
+	{ "name": "Layer 34 copy 37", "parent": "root", "x": 45.01, "y": 343.11, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "Layer 34 copy 38", "parent": "Layer 34 copy 37", "scaleX": 0.6, "scaleY": 0.6 },
+	{ "name": "Layer 34 copy 39", "parent": "root", "x": -5.95, "y": 343.11, "scaleX": 0.6109, "scaleY": 0.6109 },
+	{ "name": "Layer 34 copy 40", "parent": "Layer 34 copy 39" },
+	{ "name": "txt", "parent": "TAMM", "x": -2.72, "y": -63.05 },
+	{ "name": "xoay", "parent": "root", "x": 0.99, "y": -42.37, "scaleX": 1.2, "scaleY": 1.2 }
+],
+"slots": [
+	{ "name": "glow", "bone": "TAMM", "color": "ffffff7f", "attachment": "glow", "blend": "additive" },
+	{ "name": "glow2", "bone": "TAMM", "color": "ffffffd7", "attachment": "glow", "blend": "additive" },
+	{ "name": "xoay", "bone": "xoay", "attachment": "xoay", "blend": "additive" },
+	{ "name": "Layer 34 copy 29", "bone": "Layer 34 copy 30", "attachment": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 32", "bone": "Layer 34 copy 36", "attachment": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 34", "bone": "Layer 34 copy 40", "attachment": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 33", "bone": "Layer 34 copy 38", "attachment": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 30", "bone": "Layer 34 copy 32", "attachment": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 31", "bone": "Layer 34 copy 34", "attachment": "Layer 34 copy 25" },
+	{ "name": "cupIn", "bone": "TAMM", "attachment": "cupIn" },
+	{ "name": "Layer 34 copy 4", "bone": "Layer 34 copy 4", "attachment": "Layer 34 copy 4" },
+	{ "name": "Layer 34 copy 15", "bone": "Layer 34 copy 15", "attachment": "Layer 34 copy 15" },
+	{ "name": "Layer 34 copy 11", "bone": "Layer 34 copy 11", "attachment": "Layer 34 copy 11" },
+	{ "name": "Layer 34 copy 12", "bone": "Layer 34 copy 13", "attachment": "Layer 34 copy 12" },
+	{ "name": "Layer 34 copy 16", "bone": "Layer 34 copy 16", "attachment": "Layer 34 copy 16" },
+	{ "name": "Layer 34 copy 8", "bone": "Layer 34 copy 8", "attachment": "Layer 34 copy 8" },
+	{ "name": "Layer 34 copy 17", "bone": "Layer 34 copy 17", "attachment": "Layer 34 copy 17" },
+	{ "name": "Layer 34 copy 18", "bone": "Layer 34 copy 19", "attachment": "Layer 34 copy 18" },
+	{ "name": "Layer 34 copy 10", "bone": "Layer 34 copy 10", "attachment": "Layer 34 copy 10" },
+	{ "name": "Layer 34 copy 27", "bone": "Layer 34 copy 26", "attachment": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 28", "bone": "Layer 34 copy 28", "attachment": "Layer 34 copy 25" },
+	{ "name": "Layer 34 copy 5", "bone": "Layer 34 copy 5", "attachment": "Layer 34 copy 5" },
+	{ "name": "Layer 34 copy 14", "bone": "Layer 34 copy 18", "attachment": "Layer 34 copy 14" },
+	{ "name": "Layer 34 copy 13", "bone": "Layer 34 copy 14", "attachment": "Layer 34 copy 13" },
+	{ "name": "Layer 34 copy 7", "bone": "Layer 34 copy 7", "attachment": "Layer 34 copy 7" },
+	{ "name": "Layer 34 copy 9", "bone": "Layer 34 copy 9", "attachment": "Layer 34 copy 9" },
+	{ "name": "cup", "bone": "TAMM", "attachment": "cup2" },
+	{ "name": "dai", "bone": "TAMM", "attachment": "dai" },
+	{ "name": "txt", "bone": "txt", "attachment": "txt" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Layer 34 copy 4": {
+				"Layer 34 copy 4": { "x": -2.86, "y": -2.24, "width": 79, "height": 59 }
+			},
+			"Layer 34 copy 5": {
+				"Layer 34 copy 5": { "x": 2.3, "y": -4.93, "width": 81, "height": 63 }
+			},
+			"Layer 34 copy 7": {
+				"Layer 34 copy 7": { "x": -0.35, "y": -9.89, "width": 80, "height": 67 }
+			},
+			"Layer 34 copy 8": {
+				"Layer 34 copy 8": { "x": 0.4, "y": -3.42, "width": 79, "height": 59 }
+			},
+			"Layer 34 copy 9": {
+				"Layer 34 copy 9": { "x": 0.33, "y": -0.04, "width": 82, "height": 63 }
+			},
+			"Layer 34 copy 10": {
+				"Layer 34 copy 10": { "x": -2.36, "y": -0.83, "width": 80, "height": 66 }
+			},
+			"Layer 34 copy 11": {
+				"Layer 34 copy 11": { "x": -1.09, "y": -0.8, "width": 71, "height": 77 }
+			},
+			"Layer 34 copy 12": {
+				"Layer 34 copy 12": { "x": 3.26, "y": -2.54, "width": 71, "height": 77 }
+			},
+			"Layer 34 copy 13": {
+				"Layer 34 copy 13": { "x": 2.12, "y": -0.56, "width": 81, "height": 63 }
+			},
+			"Layer 34 copy 14": {
+				"Layer 34 copy 14": { "x": -5.81, "y": 4.64, "width": 81, "height": 63 }
+			},
+			"Layer 34 copy 15": {
+				"Layer 34 copy 15": { "x": -1.73, "y": -3.63, "width": 79, "height": 59 }
+			},
+			"Layer 34 copy 16": {
+				"Layer 34 copy 16": { "x": -0.44, "y": -5.3, "width": 80, "height": 68 }
+			},
+			"Layer 34 copy 17": {
+				"Layer 34 copy 17": { "x": 0.32, "y": -1.56, "width": 80, "height": 65 }
+			},
+			"Layer 34 copy 18": {
+				"Layer 34 copy 18": { "x": -4.51, "y": -2.24, "width": 78, "height": 71 }
+			},
+			"Layer 34 copy 27": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"Layer 34 copy 28": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"Layer 34 copy 29": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"Layer 34 copy 30": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"Layer 34 copy 31": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"Layer 34 copy 32": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"Layer 34 copy 33": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"Layer 34 copy 34": {
+				"Layer 34 copy 25": { "x": -3.63, "y": -1.03, "width": 57, "height": 72 }
+			},
+			"cup": {
+				"cup2": { "x": 11.65, "y": 69.08, "width": 368, "height": 284 }
+			},
+			"cupIn": {
+				"cupIn": { "x": 12.6, "y": 180.38, "width": 278, "height": 152 }
+			},
+			"dai": {
+				"dai": { "y": -155.02, "width": 681, "height": 113 }
+			},
+			"glow": {
+				"glow": { "y": -45.14, "scaleX": 1.4361, "scaleY": 1.4361, "width": 654, "height": 287 }
+			},
+			"glow2": {
+				"glow": { "y": 168.18, "scaleX": 0.9804, "scaleY": 1.4361, "width": 654, "height": 287 }
+			},
+			"txt": {
+				"txt": { "x": 2.72, "y": -13.49, "width": 343, "height": 84 }
+			},
+			"xoay": {
+				"xoay": { "x": -0.99, "y": -2.78, "width": 296, "height": 293 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"Layer 34 copy 25": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1333, "y": 300.22 },
+					{ "time": 0.7333, "y": -114.37, "curve": 0.431, "c4": 0.54 },
+					{ "time": 1.7667, "y": -352.04 }
+				]
+			},
+			"Layer 34 copy 19": {
+				"translate": [
+					{ "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"Layer 34 copy 18": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1667, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				]
+			},
+			"Layer 34 copy 17": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1333, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667 }
+				]
+			},
+			"Layer 34 copy 16": {
+				"translate": [
+					{ "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"Layer 34 copy 15": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333 }
+				]
+			},
+			"Layer 34 copy 14": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.0333, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			},
+			"Layer 34 copy 13": {
+				"translate": [
+					{ "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"Layer 34 copy 11": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1667, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				]
+			},
+			"Layer 34 copy 10": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.2, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5333 }
+				]
+			},
+			"Layer 34 copy 9": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1333, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667 }
+				]
+			},
+			"Layer 34 copy 8": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.0667, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4 }
+				]
+			},
+			"Layer 34 copy 7": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1333, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4667 }
+				]
+			},
+			"Layer 34 copy 5": {
+				"translate": [
+					{ "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"Layer 34 copy 4": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.0667, "y": 300.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4 }
+				]
+			},
+			"Layer 34 copy 26": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1333 },
+					{ "time": 0.7333, "angle": -45.77 },
+					{ "time": 1.7667, "angle": 60.15 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.7333, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.7667, "x": 198.36 }
+				]
+			},
+			"Layer 34 copy 28": {
+				"rotate": [
+					{},
+					{ "time": 0.4333, "angle": -16.81 },
+					{ "time": 1.3, "angle": -94.76 }
+				],
+				"translate": [
+					{ "x": -2 },
+					{ "time": 0.4333, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.3, "x": -315.76 }
+				],
+				"scale": [
+					{ "x": -1 }
+				]
+			},
+			"Layer 34 copy 27": {
+				"translate": [
+					{ "y": 300.22 },
+					{ "time": 0.4333, "y": -118.32, "curve": 0.333, "c3": 0.666, "c4": 0.33 },
+					{ "time": 1.3, "y": -352.04 }
+				]
+			},
+			"Layer 34 copy 30": {
+				"rotate": [
+					{},
+					{ "time": 0.2333, "angle": -16.81 },
+					{ "time": 1.1, "angle": -58.66 }
+				],
+				"translate": [
+					{ "x": -2 },
+					{ "time": 0.2333, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.1, "x": -127.83 }
+				],
+				"scale": [
+					{ "x": -1 }
+				]
+			},
+			"Layer 34 copy 29": {
+				"translate": [
+					{ "y": 300.22 },
+					{ "time": 0.2333, "y": -57.03, "curve": 0.333, "c3": 0.666, "c4": 0.33 },
+					{ "time": 1.1, "x": -129.27, "y": -337.42 }
+				]
+			},
+			"Layer 34 copy 32": {
+				"rotate": [
+					{},
+					{ "time": 0.2333, "angle": -16.81 },
+					{ "time": 1.1, "angle": -66.59 }
+				],
+				"translate": [
+					{ "x": -2 },
+					{ "time": 0.2333, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.1, "x": 108.41 }
+				],
+				"scale": [
+					{ "x": -1 }
+				]
+			},
+			"Layer 34 copy 31": {
+				"translate": [
+					{ "y": 300.22 },
+					{ "time": 0.2333, "y": -57.03, "curve": 0.333, "c3": 0.666, "c4": 0.33 },
+					{ "time": 1.1, "y": -305.46 }
+				]
+			},
+			"Layer 34 copy 34": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1333 },
+					{ "time": 0.3667, "angle": -16.81 },
+					{ "time": 1.2333, "angle": -72.21 }
+				],
+				"translate": [
+					{ "x": -2, "curve": "stepped" },
+					{ "time": 0.1333, "x": -2 },
+					{ "time": 0.3667, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.2333, "x": 108.41 }
+				],
+				"scale": [
+					{ "x": -1, "curve": "stepped" },
+					{ "time": 0.1333, "x": -1 }
+				]
+			},
+			"Layer 34 copy 33": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1333, "y": 300.22 },
+					{ "time": 0.3667, "y": -57.03, "curve": 0.333, "c3": 0.666, "c4": 0.33 },
+					{ "time": 1.2333, "y": -303.21 }
+				]
+			},
+			"Layer 34 copy 36": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667 },
+					{ "time": 0.4, "angle": 90.63 },
+					{ "time": 1.2667, "angle": -64.94 }
+				],
+				"translate": [
+					{ "x": -2, "curve": "stepped" },
+					{ "time": 0.1667, "x": -2 },
+					{ "time": 0.4, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.2667, "x": -356.92 }
+				],
+				"scale": [
+					{ "x": -1, "curve": "stepped" },
+					{ "time": 0.1667, "x": -1 }
+				]
+			},
+			"Layer 34 copy 35": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1667, "y": 300.22 },
+					{ "time": 0.4, "y": -57.03, "curve": 0.333, "c3": 0.666, "c4": 0.33 },
+					{ "time": 1.2667, "y": -310.66 }
+				]
+			},
+			"Layer 34 copy 38": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667 },
+					{ "time": 0.4, "angle": 86.08 },
+					{ "time": 1.2667, "angle": -94.76 }
+				],
+				"translate": [
+					{ "x": -2, "curve": "stepped" },
+					{ "time": 0.1667, "x": -2 },
+					{ "time": 0.4, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.2667, "x": -213.72, "y": 31.85 }
+				],
+				"scale": [
+					{ "x": -1, "curve": "stepped" },
+					{ "time": 0.1667, "x": -1 }
+				]
+			},
+			"Layer 34 copy 37": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.1667, "y": 300.22 },
+					{ "time": 0.4, "y": -57.03, "curve": 0.333, "c3": 0.666, "c4": 0.33 },
+					{ "time": 1.2667, "y": -333.62 }
+				]
+			},
+			"Layer 34 copy 40": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.3 },
+					{ "time": 0.5333, "angle": 32.83 },
+					{ "time": 1.4, "angle": -64.22 }
+				],
+				"translate": [
+					{ "x": -2, "curve": "stepped" },
+					{ "time": 0.3, "x": -2 },
+					{ "time": 0.5333, "curve": 0, "c2": 0.44, "c3": 0.624 },
+					{ "time": 1.4, "x": -396.58 }
+				],
+				"scale": [
+					{ "x": -1, "curve": "stepped" },
+					{ "time": 0.3, "x": -1 }
+				]
+			},
+			"Layer 34 copy 39": {
+				"translate": [
+					{ "y": 300.22, "curve": "stepped" },
+					{ "time": 0.3, "y": 300.22 },
+					{ "time": 0.5333, "y": -57.03, "curve": 0.333, "c3": 0.666, "c4": 0.33 },
+					{ "time": 1.4, "x": 19.43, "y": -322.89 }
+				]
+			},
+			"xoay": {
+				"rotate": [
+					{},
+					{ "time": 1.5, "angle": 180 },
+					{ "time": 3 }
+				]
+			},
+			"TAMM": {
+				"translate": [
+					{ "y": 42.01, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333 }
+				]
+			},
+			"txt": {
+				"translate": [
+					{ "y": 29.6, "curve": "stepped" },
+					{ "time": 0.0667, "y": 29.6 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

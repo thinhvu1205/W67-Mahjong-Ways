@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 176,444
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+I
+  rotate: true
+  xy: 51, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+I_thai
+  rotate: false
+  xy: 2, 3
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+Layer 109 copy
+  rotate: false
+  xy: 2, 199
+  size: 114, 88
+  orig: 114, 88
+  offset: 0, 0
+  index: -1
+N
+  rotate: true
+  xy: 2, 38
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+N_thai
+  rotate: false
+  xy: 118, 199
+  size: 48, 61
+  orig: 48, 61
+  offset: 0, 0
+  index: -1
+W
+  rotate: false
+  xy: 127, 83
+  size: 46, 56
+  orig: 46, 56
+  offset: 0, 0
+  index: -1
+WIN
+  rotate: false
+  xy: 2, 141
+  size: 147, 56
+  orig: 147, 56
+  offset: 0, 0
+  index: -1
+WIN1
+  rotate: false
+  xy: 2, 78
+  size: 123, 61
+  orig: 123, 61
+  offset: 0, 0
+  index: -1
+W_thai
+  rotate: true
+  xy: 51, 39
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 289
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+wee
+  rotate: true
+  xy: 127, 32
+  size: 49, 46
+  orig: 49, 46
+  offset: 0, 0
+  index: -1
+wee_thai
+  rotate: false
+  xy: 28, 3
+  size: 12, 33
+  orig: 12, 33
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 523,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 409
+  size: 519, 112
+  orig: 535, 114
+  offset: 11, 1
+  index: -1
+finish
+  rotate: false
+  xy: 115, 67
+  size: 145, 45
+  orig: 145, 46
+  offset: 0, 0
+  index: -1
+finish2
+  rotate: false
+  xy: 2, 39
+  size: 111, 73
+  orig: 111, 74
+  offset: 0, 0
+  index: -1
+startgame
+  rotate: false
+  xy: 2, 114
+  size: 263, 43
+  orig: 263, 44
+  offset: 0, 0
+  index: -1
+startgame2
+  rotate: false
+  xy: 267, 83
+  size: 227, 69
+  orig: 227, 70
+  offset: 0, 0
+  index: -1
+tiger
+  rotate: true
+  xy: 273, 154
+  size: 253, 242
+  orig: 256, 246
+  offset: 1, 2
+  index: -1
+tiger_shadow
+  rotate: false
+  xy: 2, 159
+  size: 269, 248
+  orig: 280, 266
+  offset: 7, 6
+  index: -1

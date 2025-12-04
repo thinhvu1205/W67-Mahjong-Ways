@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 786,786
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 34 copy 10
+  rotate: true
+  xy: 560, 622
+  size: 80, 66
+  orig: 80, 66
+  offset: 0, 0
+  index: -1
+Layer 34 copy 11
+  rotate: false
+  xy: 654, 180
+  size: 69, 75
+  orig: 71, 77
+  offset: 0, 2
+  index: -1
+Layer 34 copy 12
+  rotate: false
+  xy: 654, 180
+  size: 69, 75
+  orig: 71, 77
+  offset: 0, 2
+  index: -1
+Layer 34 copy 16
+  rotate: true
+  xy: 560, 541
+  size: 79, 67
+  orig: 80, 68
+  offset: 1, 1
+  index: -1
+Layer 34 copy 17
+  rotate: true
+  xy: 654, 257
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+Layer 34 copy 18
+  rotate: false
+  xy: 697, 433
+  size: 78, 71
+  orig: 78, 71
+  offset: 0, 0
+  index: -1
+Layer 34 copy 25
+  rotate: false
+  xy: 721, 278
+  size: 57, 72
+  orig: 57, 72
+  offset: 0, 0
+  index: -1
+Layer 34 copy 4
+  rotate: true
+  xy: 719, 352
+  size: 79, 59
+  orig: 79, 59
+  offset: 0, 0
+  index: -1
+Layer 34 copy 15
+  rotate: true
+  xy: 719, 352
+  size: 79, 59
+  orig: 79, 59
+  offset: 0, 0
+  index: -1
+Layer 34 copy 8
+  rotate: true
+  xy: 719, 352
+  size: 79, 59
+  orig: 79, 59
+  offset: 0, 0
+  index: -1
+Layer 34 copy 5
+  rotate: true
+  xy: 654, 339
+  size: 81, 63
+  orig: 81, 63
+  offset: 0, 0
+  index: -1
+Layer 34 copy 13
+  rotate: true
+  xy: 654, 339
+  size: 81, 63
+  orig: 81, 63
+  offset: 0, 0
+  index: -1
+Layer 34 copy 14
+  rotate: true
+  xy: 654, 339
+  size: 81, 63
+  orig: 81, 63
+  offset: 0, 0
+  index: -1
+Layer 34 copy 7
+  rotate: true
+  xy: 560, 704
+  size: 80, 67
+  orig: 80, 67
+  offset: 0, 0
+  index: -1
+Layer 34 copy 9
+  rotate: true
+  xy: 632, 422
+  size: 82, 63
+  orig: 82, 63
+  offset: 0, 0
+  index: -1
+cup2
+  rotate: false
+  xy: 2, 137
+  size: 368, 283
+  orig: 368, 284
+  offset: 0, 0
+  index: -1
+cupIn
+  rotate: true
+  xy: 632, 506
+  size: 278, 152
+  orig: 278, 152
+  offset: 0, 0
+  index: -1
+dai
+  rotate: false
+  xy: 2, 422
+  size: 628, 113
+  orig: 681, 113
+  offset: 29, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 537
+  size: 556, 247
+  orig: 654, 287
+  offset: 48, 18
+  index: -1
+txt
+  rotate: false
+  xy: 2, 52
+  size: 341, 83
+  orig: 343, 84
+  offset: 1, 1
+  index: -1
+xoay
+  rotate: true
+  xy: 372, 139
+  size: 281, 280
+  orig: 296, 293
+  offset: 8, 8
+  index: -1

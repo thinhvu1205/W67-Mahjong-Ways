@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 205797584
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c3660259ada92663744603158e493ba8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d0b4c284cc7e207abf3d7e9b9962155
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: aeb51ec433be2ac0c02980d1ac5452f6
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+Assets:
+- Assets/Resources/GameView/Baucua/Spine/lose/skeleton.atlas.txt
+- Assets/Resources/GameView/Baucua/Spine/win/skeleton_Atlas.asset
+- Assets/Resources/GameView/Baucua/Spine/win/skeleton_Material.mat
+- Assets/Resources/GameView/Baucua/Spine/lose/skeleton.json
+- Assets/Resources/GameView/Baucua/Spine/win/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Baucua/Spine/startbet/skeleton.png
+- Assets/Resources/GameView/Baucua/Spine/lose/skeleton.png
+- Assets/Resources/GameView/Baucua/Spine/win/skeleton.atlas.txt
+- Assets/Resources/GameView/Baucua/Spine/lose/skeleton_Material.mat
+- Assets/Resources/GameView/Baucua/Spine/startbet/skeleton.json
+- Assets/Resources/GameView/Baucua/Spine/startbet/skeleton_Atlas.asset
+- Assets/Resources/GameView/Baucua/Spine/startbet/skeleton_Material.mat
+- Assets/Resources/GameView/Baucua/Spine/startbet/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Baucua/Spine/lose/skeleton_Atlas.asset
+- Assets/Resources/GameView/Baucua/Spine/startbet/skeleton.atlas.txt
+- Assets/Resources/GameView/Baucua/Spine/win/skeleton.json
+- Assets/Resources/GameView/Baucua/Spine/win/skeleton.png
+- Assets/Resources/GameView/Baucua/Spine/win/skeleton_Material-Additive.mat
+- Assets/Resources/GameView/Baucua/Spine/lose/skeleton_SkeletonData.asset
+Dependencies: []

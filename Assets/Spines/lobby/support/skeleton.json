@@ -1,0 +1,68 @@
+{
+"skeleton": {
+	"hash": "ejY2pLhr5Zp9/jOFp/UFJOy1VZk",
+	"spine": "3.8.99",
+	"x": -62.6,
+	"y": -23.6,
+	"width": 117.6,
+	"height": 70.44,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 22.75, "rotation": 91.22, "x": -15.01, "y": -19.22 },
+	{ "name": "tag", "parent": "root", "length": 22.9, "rotation": 117.98, "x": -32.24, "y": 1.62 }
+],
+"slots": [
+	{ "name": "bg", "bone": "root", "attachment": "bg" },
+	{ "name": "root", "bone": "root", "attachment": "root" },
+	{ "name": "loa", "bone": "bone", "attachment": "loa" },
+	{ "name": "tag", "bone": "tag", "attachment": "tag" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bg": {
+				"bg": { "width": 110, "height": 91 }
+			},
+			"loa": {
+				"loa": { "x": 23.79, "y": -13, "rotation": -91.22, "width": 84, "height": 84 }
+			},
+			"root": {
+				"root": {
+					"type": "clipping",
+					"end": "root",
+					"vertexCount": 4,
+					"vertices": [ -69.19, -23.39, 77.59, -23.64, 85.62, 59.5, -78.65, 58.09 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"tag": {
+				"tag": { "x": 18.94, "y": 1.67, "rotation": -117.98, "width": 40, "height": 38 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"tag": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 6.87 },
+					{ "time": 1 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 0.96, "y": 0.96 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 1720,1720
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 897, 1013
+  size: 89, 102
+  orig: 89, 102
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 1650, 1640
+  size: 75, 65
+  orig: 75, 65
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 897, 916
+  size: 99, 95
+  orig: 99, 95
+  offset: 0, 0
+  index: -1
+CONGRATULATION - THAI
+  rotate: false
+  xy: 302, 1104
+  size: 717, 173
+  orig: 717, 173
+  offset: 0, 0
+  index: -1
+You won
+  rotate: false
+  xy: 2, 1279
+  size: 1050, 219
+  orig: 1050, 219
+  offset: 0, 0
+  index: -1
+day1
+  rotate: true
+  xy: 2, 1025
+  size: 252, 133
+  orig: 252, 133
+  offset: 0, 0
+  index: -1
+hoa
+  rotate: true
+  xy: 137, 1083
+  size: 194, 163
+  orig: 194, 163
+  offset: 0, 0
+  index: -1
+khung
+  rotate: false
+  xy: 724, 48
+  size: 951, 720
+  orig: 951, 720
+  offset: 0, 0
+  index: -1
+ligh
+  rotate: false
+  xy: 728, 1008
+  size: 167, 94
+  orig: 167, 94
+  offset: 0, 0
+  index: -1
+light tron
+  rotate: false
+  xy: 1089, 1423
+  size: 300, 292
+  orig: 300, 292
+  offset: 0, 0
+  index: -1
+quang tron
+  rotate: true
+  xy: 1054, 770
+  size: 651, 659
+  orig: 651, 659
+  offset: 0, 0
+  index: -1
+roun
+  rotate: false
+  xy: 1391, 1458
+  size: 257, 257
+  orig: 257, 257
+  offset: 0, 0
+  index: -1
+sanng
+  rotate: true
+  xy: 2, 34
+  size: 734, 720
+  orig: 734, 720
+  offset: 0, 0
+  index: -1
+starr
+  rotate: false
+  xy: 1650, 1594
+  size: 45, 44
+  orig: 45, 44
+  offset: 0, 0
+  index: -1
+text_you_found_the_jungle
+  rotate: false
+  xy: 2, 1500
+  size: 1085, 215
+  orig: 1085, 215
+  offset: 0, 0
+  index: -1
+text_you_found_the_jungle_thai
+  rotate: false
+  xy: 2, 777
+  size: 724, 246
+  orig: 724, 246
+  offset: 0, 0
+  index: -1

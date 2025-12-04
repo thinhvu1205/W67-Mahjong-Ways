@@ -1,0 +1,41 @@
+
+special-card.png
+size: 452,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3 Consecutive Pairs
+  rotate: true
+  xy: 373, 173
+  size: 185, 77
+  orig: 185, 77
+  offset: 0, 0
+  index: -1
+4 Consecutive Pairs
+  rotate: true
+  xy: 294, 70
+  size: 187, 77
+  orig: 187, 77
+  offset: 0, 0
+  index: -1
+4 of a kind
+  rotate: true
+  xy: 294, 275
+  size: 83, 68
+  orig: 83, 68
+  offset: 0, 0
+  index: -1
+Set of twos
+  rotate: false
+  xy: 2, 2
+  size: 322, 66
+  orig: 322, 66
+  offset: 0, 0
+  index: -1
+ef
+  rotate: false
+  xy: 2, 70
+  size: 290, 288
+  orig: 290, 288
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 380016951
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d3131de25edfe53dfb9136093381b306
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d0b4c284cc7e207abf3d7e9b9962155
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 280ef1789db4718a145d2b179fd015e1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+Assets:
+- Assets/Resources/GameView/bordeng/spine/bantay/bantay.json
+- Assets/Resources/GameView/bordeng/spine/jackpot/skeleton_Atlas.asset
+- Assets/Resources/GameView/bordeng/spine/dealer/skeleton.atlas.txt
+- Assets/Resources/GameView/bordeng/spine/bork/skeleton.atlas.txt
+- Assets/Resources/GameView/bordeng/spine/jackpot/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/bordeng/spine/bork/skeleton.json
+- Assets/Resources/GameView/bordeng/spine/bantay/bantay_Atlas.asset
+- Assets/Resources/GameView/bordeng/spine/jackpot/skeleton_Material.mat
+- Assets/Resources/GameView/bordeng/spine/bantay/bantay.atlas.txt
+- Assets/Resources/GameView/bordeng/spine/dealer/skeleton_Material.mat
+- Assets/Resources/GameView/bordeng/spine/bantay/bantay_Material.mat
+- Assets/Resources/GameView/bordeng/spine/jackpot/skeleton_Material-Additive.mat
+- Assets/Resources/GameView/bordeng/spine/bork/skeleton.png
+- Assets/Resources/GameView/bordeng/spine/bantay/bantay_SkeletonData.asset
+- Assets/Resources/GameView/bordeng/spine/jackpot/skeleton.atlas.txt
+- Assets/Resources/GameView/bordeng/spine/bantay/bantay.png
+- Assets/Resources/GameView/bordeng/spine/dealer/skeleton.png
+- Assets/Resources/GameView/bordeng/spine/bork/skeleton_Material.mat
+- Assets/Resources/GameView/bordeng/spine/dealer/skeleton_Atlas.asset
+- Assets/Resources/GameView/bordeng/spine/jackpot/skeleton.png
+- Assets/Resources/GameView/bordeng/spine/bork/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/bordeng/spine/dealer/skeleton.json
+- Assets/Resources/GameView/bordeng/spine/jackpot/skeleton.json
+- Assets/Resources/GameView/bordeng/spine/dealer/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/bordeng/spine/bork/skeleton_Atlas.asset
+- Assets/Resources/GameView/bordeng/spine/bork/skeleton_Material-Additive.mat
+Dependencies: []

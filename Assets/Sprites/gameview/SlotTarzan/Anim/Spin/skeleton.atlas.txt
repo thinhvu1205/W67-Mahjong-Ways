@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 489,489
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+go
+  rotate: false
+  xy: 2, 280
+  size: 231, 207
+  orig: 233, 209
+  offset: 1, 1
+  index: -1
+rec duoi
+  rotate: false
+  xy: 235, 182
+  size: 163, 147
+  orig: 165, 148
+  offset: 1, 1
+  index: -1
+rec duoi b
+  rotate: true
+  xy: 2, 115
+  size: 163, 147
+  orig: 165, 148
+  offset: 1, 1
+  index: -1
+rec duoi r
+  rotate: true
+  xy: 205, 17
+  size: 163, 147
+  orig: 165, 148
+  offset: 1, 1
+  index: -1
+text_spin
+  rotate: true
+  xy: 400, 92
+  size: 128, 87
+  orig: 128, 87
+  offset: 0, 0
+  index: -1
+text_stop
+  rotate: false
+  xy: 2, 21
+  size: 109, 69
+  orig: 109, 70
+  offset: 0, 1
+  index: -1
+txt
+  rotate: true
+  xy: 411, 222
+  size: 116, 67
+  orig: 117, 67
+  offset: 1, 0
+  index: -1
+txt1
+  rotate: true
+  xy: 354, 25
+  size: 155, 39
+  orig: 157, 40
+  offset: 1, 1
+  index: -1
+txt2
+  rotate: true
+  xy: 151, 151
+  size: 127, 52
+  orig: 129, 53
+  offset: 1, 1
+  index: -1
+txt_freespin
+  rotate: true
+  xy: 411, 340
+  size: 147, 73
+  orig: 149, 74
+  offset: 1, 1
+  index: -1
+vet2
+  rotate: false
+  xy: 151, 57
+  size: 36, 92
+  orig: 36, 92
+  offset: 0, 0
+  index: -1
+vien
+  rotate: false
+  xy: 235, 331
+  size: 174, 156
+  orig: 174, 156
+  offset: 0, 0
+  index: -1

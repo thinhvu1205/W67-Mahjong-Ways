@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2883965462
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets--resources--gameview--xocdia--spine
+      Dependencies: {}
+    Info_1:
+      Name: assets--resources--gameview--baucua--spine
+      Dependencies: {}
+    Info_2:
+      Name: assets--resources--gameview--catte_asset--res--animations
+      Dependencies: {}
+    Info_3:
+      Name: assets--resources--gameview--roulette_asset--res--spine_roulette
+      Dependencies: {}
+    Info_4:
+      Name: assets--resources--gameview--sixiang--spine
+      Dependencies: {}
+    Info_5:
+      Name: assets--resources--gameview--bordeng--spine
+      Dependencies: {}
+    Info_6:
+      Name: assets--resources--gameview--tienlen--animations
+      Dependencies: {}
+    Info_7:
+      Name: assets--resources--gameview--sixiang--sound
+      Dependencies: {}
+    Info_8:
+      Name: assets--resources--gameview--emo
+      Dependencies: {}
+    Info_9:
+      Name: assets--resources--gameview--dragontiger--spine
+      Dependencies: {}
+    Info_10:
+      Name: assets--resources--gameview--slotspine
+      Dependencies: {}
+    Info_11:
+      Name: assets--resources--sounds
+      Dependencies: {}

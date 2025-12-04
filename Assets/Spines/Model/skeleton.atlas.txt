@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 392,628
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 209
+  size: 267, 418
+  orig: 267, 418
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 265, 343
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 3
+  size: 238, 204
+  orig: 242, 206
+  offset: 1, 1
+  index: -1
+hoatai
+  rotate: false
+  xy: 2, 595
+  size: 25, 31
+  orig: 27, 33
+  offset: 1, 1
+  index: -1
+hoatai2
+  rotate: false
+  xy: 2, 568
+  size: 24, 25
+  orig: 26, 27
+  offset: 1, 1
+  index: -1
+khan
+  rotate: 180
+  xy: 238, 38
+  size: 150, 318
+  orig: 155, 321
+  offset: 1, 0
+  index: -1

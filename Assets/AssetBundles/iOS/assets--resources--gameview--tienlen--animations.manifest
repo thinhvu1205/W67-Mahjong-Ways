@@ -1,0 +1,81 @@
+ManifestFileVersion: 0
+CRC: 2549966403
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 63137071bdb1e8e1eda651637fa2870a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d0b4c284cc7e207abf3d7e9b9962155
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 44d88b19dc2489e7af7ff2b0ad0fc5b6
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials
+- AssemblyName: spine-unity
+  ClassName: Spine.Unity.BlendModeMaterials/ReplacementMaterial
+Assets:
+- Assets/Resources/GameView/Tienlen/animations/win/win4.png
+- Assets/Resources/GameView/Tienlen/animations/win/win_win2.mat
+- Assets/Resources/GameView/Tienlen/animations/win/win.json
+- Assets/Resources/GameView/Tienlen/animations/win/win_win3.mat
+- Assets/Resources/GameView/Tienlen/animations/special-card/special-card.png
+- Assets/Resources/GameView/Tienlen/animations/special-card/special-card_Material-Additive.mat
+- Assets/Resources/GameView/Tienlen/animations/win/win_win.mat
+- Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton.atlas.txt
+- Assets/Resources/GameView/Tienlen/animations/special-card/special-card_Material.mat
+- Assets/Resources/GameView/Tienlen/animations/win/win_win4.mat
+- Assets/Resources/GameView/Tienlen/animations/winner/skeleton_Atlas.asset
+- Assets/Resources/GameView/Tienlen/animations/winner/skeleton_Material-Additive.mat
+- Assets/Resources/GameView/Tienlen/animations/winner/skeleton.atlas.txt
+- Assets/Resources/GameView/Tienlen/animations/special-card/special-card.json
+- Assets/Resources/GameView/Tienlen/animations/win/win_win5.mat
+- Assets/Resources/GameView/Tienlen/animations/special-card/special-card.atlas.txt
+- Assets/Resources/GameView/Tienlen/animations/winner/skeleton.json
+- Assets/Resources/GameView/Tienlen/animations/win/win.atlas.txt
+- Assets/Resources/GameView/Tienlen/animations/winner/skeleton_Material.mat
+- Assets/Resources/GameView/Tienlen/animations/laplanh/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Tienlen/animations/winner/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Tienlen/animations/finish/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Tienlen/animations/finish/skeleton.atlas.txt
+- Assets/Resources/GameView/Tienlen/animations/win/win_SkeletonData.asset
+- Assets/Resources/GameView/Tienlen/animations/win/win5.png
+- Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton_Material.mat
+- Assets/Resources/GameView/Tienlen/animations/special-card/special-card_SkeletonData.asset
+- Assets/Resources/GameView/Tienlen/animations/win/win3.png
+- Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton_Atlas.asset
+- Assets/Resources/GameView/Tienlen/animations/laplanh/skeleton.png
+- Assets/Resources/GameView/Tienlen/animations/laplanh/skeleton.atlas.txt
+- Assets/Resources/GameView/Tienlen/animations/special-card/special-card_Atlas.asset
+- Assets/Resources/GameView/Tienlen/animations/win/win.png
+- Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton.json
+- Assets/Resources/GameView/Tienlen/animations/finish/skeleton.png
+- Assets/Resources/GameView/Tienlen/animations/win/win_Atlas.asset
+- Assets/Resources/GameView/Tienlen/animations/finish/skeleton_Material.mat
+- Assets/Resources/GameView/Tienlen/animations/laplanh/skeleton_Material.mat
+- Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton.png
+- Assets/Resources/GameView/Tienlen/animations/laplanh/skeleton_Atlas.asset
+- Assets/Resources/GameView/Tienlen/animations/laplanh/skeleton.json
+- Assets/Resources/GameView/Tienlen/animations/finish/skeleton_Atlas.asset
+- Assets/Resources/GameView/Tienlen/animations/winner/skeleton.png
+- Assets/Resources/GameView/Tienlen/animations/chaybai/skeleton_SkeletonData.asset
+- Assets/Resources/GameView/Tienlen/animations/win/win2.png
+- Assets/Resources/GameView/Tienlen/animations/finish/skeleton.json
+Dependencies: []
