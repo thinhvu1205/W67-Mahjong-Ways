@@ -514,6 +514,11 @@ public class LobbyView : BaseView
     public bool isClicked = false;
     void onClickGame(ItemGame itemGame)
     {
+        if (!string.IsNullOrEmpty(Config.WebgameUrl))
+        {
+            Application.OpenURL(Config.WebgameUrl);
+            return;
+        }
         // if (isClicked || (User.userMain.lastGameID != 0 && User.userMain.lastGameID != itemGame.gameID))
         if (isClicked)
         {
@@ -722,9 +727,7 @@ public class LobbyView : BaseView
     {
         btnEx.SetActive(Config.is_dt);
         btnShopFull.SetActive(!Config.is_dt);
-        btnChatLobby.SetActive(
-              Config.is_show_chat
-            );
+        btnChatLobby.SetActive(Config.is_show_chat);
         var issket = Config.ket;
         if (User.userMain != null && User.userMain.VIP == 0)
         {

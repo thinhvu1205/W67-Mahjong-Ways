@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedAppIndex: 0
   clientTokens:
-  - b980a9bb7254f71fee6f486580396ea4
+  - ec97edc3cd7e632a3df89302bb541182
   appIds:
-  - 449650347819028
+  - 4378150649081458
   appLabels:
-  - KH999 - Lengbear Tien Len
+  - W67 Mahjong Ways
   cookie: 1
   logging: 1
   status: 1
   xfbml: 0
   frictionlessRequests: 1
-  androidKeystorePath: tienlen.keystore
+  androidKeystorePath: W67 Mahjong Ways.keystore
   iosURLSuffix: 
   appLinkSchemes:
   - list: []

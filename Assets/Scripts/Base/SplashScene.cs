@@ -5,13 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SplashScene : MonoBehaviour
 {
-    // https://console.cloud.google.com/storage/browser/kh9;tab=objects?forceOnBucketsSortingFiltering=true&inv=1&invt=AbzYXw&project=myanmar-199404&prefix=&forceOnObjectsSortingFiltering=false
+    // https://console.cloud.google.com/storage/browser/kh9
     [SerializeField] private BundleDownloader m_BundleBD;
 
     private void Awake()
     {
         Application.targetFrameRate = 60;
-        // D:/Unity projects/Tidi-Phil-Win777/Assets/AssetBundles;
         //  C:/code/Tidi-Cam-Casino/Assets/AssetBundles
         // https://storage.googleapis.com/kh9/AssetBundles/
         string storedUrl = PlayerPrefs.GetString(BundleDownloader.STORED_BUNDLE_URL, "");

@@ -35,7 +35,7 @@ public class LoadConfig : MonoBehaviour
     void Awake()
     {
 
-        Config.publisher = "ngwkht_club_1.0";
+        Config.publisher = "w67_mahjong_ways_01";
         if (instance == null) instance = this;
         else
         {
@@ -215,7 +215,7 @@ public class LoadConfig : MonoBehaviour
         JObject wWForm = new JObject();
         wWForm["version"] = Config.versionGame + "";
         wWForm["operatorID"] = Config.OPERATOR + "";
-        wWForm["bundleID"] = "ngwkht.club.ai.com";
+        wWForm["bundleID"] = "w67.mahjong.ways";
         wWForm["publisher"] = Config.publisher;
         wWForm["os"] = osName;
         wWForm["mcc"] = "[0,0]";
@@ -483,6 +483,8 @@ public class LoadConfig : MonoBehaviour
         if (jConfig.ContainsKey("infoDT"))
             Config.infoDT = (string)jConfig["infoDT"];
         else Config.infoDT = "";
+        Config.WebgameUrl = jConfig.ContainsKey("web_game") && !string.IsNullOrEmpty((string)jConfig["web_game"]) ?
+            (string)jConfig["web_game"] : "";
         if (jConfig.ContainsKey("infoBNF"))
         {
             Config.infoBNF = (string)jConfig["infoBNF"];
@@ -615,7 +617,7 @@ public class LoadConfig : MonoBehaviour
 
     void updateConfigUmode(int umode, string uop1, string uop2, string utar, string umsg)
     {
-        
+
         switch (umode)
         {
             case 0: // mode == 0, vao thang ko can hoi

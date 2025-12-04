@@ -16,7 +16,7 @@ public class BannerView : BaseView
     [SerializeField]
     Image imageBanner;
 
-    System.Action callbaclClick = null;
+    System.Action callbackClick = null;
     bool isNotShowNext = false;
     public bool isBannerType9 = false;
     public JObject data;
@@ -55,7 +55,7 @@ public class BannerView : BaseView
             Debug.Log(" ADd banner type9");
         }
 
-        callbaclClick = _callbaclClick;
+        callbackClick = _callbaclClick;
         var mask = transform.Find("mask");
         if (mask != null)
             mask.gameObject.SetActive(isMark);
@@ -122,6 +122,12 @@ public class BannerView : BaseView
 
                     SocketIOManager.getInstance().logEventSuggestBanner(2, data);
                     //}
+                    if (!string.IsNullOrEmpty(Config.WebgameUrl))
+                    {
+                        Application.OpenURL(Config.WebgameUrl);
+                        callbackClick?.Invoke();
+                        return;
+                    }
                     string type = (string)dtBtn["type"];
                     Debug.Log("Type Banner Click-" + type);
                     switch (type)
@@ -214,7 +220,7 @@ public class BannerView : BaseView
                             UIManager.instance.openVipFarm();
                             break;
                     }
-                    callbaclClick?.Invoke();
+                    callbackClick?.Invoke();
                 });
             }
         }

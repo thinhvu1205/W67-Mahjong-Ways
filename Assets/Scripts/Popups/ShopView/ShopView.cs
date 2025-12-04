@@ -19,9 +19,8 @@ public class ShopView : BaseView
     [SerializeField] private BaseView inputView;
     [SerializeField] private Button btnConfirmInput;
     private JObject itemBest = null;
-    private IAPManager iapManager;
     private bool isTab = false;
-    private string dataDefault = "[{\"type\":\"iap\",\"title\":\"iap\",\"bestDeal\":[\"0.99 USD\",\"0.99 USD\",\"4.99 USD\",\"4.99 USD\",\"9.99 USD\",\"9.99 USD\",\"49.99 USD\",\"49.99 USD\",\"49.99 USD\",\"99.99 USD\",\"99.99 USD\"],\"focus\":false,\"title_img\":\"https://storage.googleapis.com/cdn.davaogames.com/img/shop/IAPAND.png?v=1\",\"items\":[{\"url\":\"ngwkht.club.ai.com.1\",\"txtPromo\":\"1USD = 7,576 Chips\",\"txtChip\":\"7,500 Chips\",\"txtBuy\":\"0.990000 USD\",\"txtBonus\":\"0%\",\"cost\":1},{\"url\":\"ngwkht.club.ai.com.2\",\"txtPromo\":\"1USD = 7,538 Chips\",\"txtChip\":\"15,000 Chips\",\"txtBuy\":\"1.990000 USD\",\"txtBonus\":\"0%\",\"cost\":2},{\"url\":\"ngwkht.club.ai.com.5\",\"txtPromo\":\"1USD = 7,515 Chips\",\"txtChip\":\"37,500 Chips\",\"txtBuy\":\"4.990000 USD\",\"txtBonus\":\"0%\",\"cost\":5},{\"url\":\"ngwkht.club.ai.com.10\",\"txtPromo\":\"1USD = 9,009 Chips\",\"txtChip\":\"90,000 Chips\",\"txtBuy\":\"9.990000 USD\",\"txtBonus\":\"0%\",\"cost\":10},{\"url\":\"ngwkht.club.ai.com.20\",\"txtPromo\":\"1USD = 9,005 Chips\",\"txtChip\":\"180,000 Chips\",\"txtBuy\":\"19.990000 USD\",\"txtBonus\":\"0%\",\"cost\":20},{\"url\":\"ngwkht.club.ai.com.50\",\"txtPromo\":\"1USD = 9,002 Chips\",\"txtChip\":\"450,000 Chips\",\"txtBuy\":\"49.990000 USD\",\"txtBonus\":\"0%\",\"cost\":50},{\"url\":\"ngwkht.club.ai.com.100\",\"txtPromo\":\"1USD = 9,001 Chips\",\"txtChip\":\"900,000 Chips\",\"txtBuy\":\"99.990000 USD\",\"txtBonus\":\"0%\",\"cost\":100}]}]";
+    private string dataDefault = "[{\"type\":\"iap\",\"title\":\"iap\",\"bestDeal\":[\"0.99 USD\",\"0.99 USD\",\"4.99 USD\",\"4.99 USD\",\"9.99 USD\",\"9.99 USD\",\"49.99 USD\",\"49.99 USD\",\"49.99 USD\",\"99.99 USD\",\"99.99 USD\"],\"focus\":false,\"title_img\":\"https://storage.googleapis.com/cdn.davaogames.com/img/shop/IAPAND.png?v=1\",\"items\":[{\"url\":\"w67.mahjong.ways.1\",\"txtPromo\":\"1USD = 7,576 Chips\",\"txtChip\":\"7,500 Chips\",\"txtBuy\":\"0.990000 USD\",\"txtBonus\":\"0%\",\"cost\":1},{\"url\":\"w67.mahjong.ways.2\",\"txtPromo\":\"1USD = 7,538 Chips\",\"txtChip\":\"15,000 Chips\",\"txtBuy\":\"1.990000 USD\",\"txtBonus\":\"0%\",\"cost\":2},{\"url\":\"w67.mahjong.ways.5\",\"txtPromo\":\"1USD = 7,515 Chips\",\"txtChip\":\"37,500 Chips\",\"txtBuy\":\"4.990000 USD\",\"txtBonus\":\"0%\",\"cost\":5},{\"url\":\"w67.mahjong.ways.10\",\"txtPromo\":\"1USD = 9,009 Chips\",\"txtChip\":\"90,000 Chips\",\"txtBuy\":\"9.990000 USD\",\"txtBonus\":\"0%\",\"cost\":10},{\"url\":\"w67.mahjong.ways.20\",\"txtPromo\":\"1USD = 9,005 Chips\",\"txtChip\":\"180,000 Chips\",\"txtBuy\":\"19.990000 USD\",\"txtBonus\":\"0%\",\"cost\":20},{\"url\":\"w67.mahjong.ways.50\",\"txtPromo\":\"1USD = 9,002 Chips\",\"txtChip\":\"450,000 Chips\",\"txtBuy\":\"49.990000 USD\",\"txtBonus\":\"0%\",\"cost\":50},{\"url\":\"w67.mahjong.ways.100\",\"txtPromo\":\"1USD = 9,001 Chips\",\"txtChip\":\"900,000 Chips\",\"txtBuy\":\"99.990000 USD\",\"txtBonus\":\"0%\",\"cost\":100}]}]";
     private string _TabNameFocusOnBannerShowType9;
     public void init(string tabNameFocus = "")
     {
@@ -572,7 +571,7 @@ public class ShopView : BaseView
                 }
             case Globals.CMD.IAP:
                 {
-                     //require("Util").onBuyIap(data.url);
+                    //require("Util").onBuyIap(data.url);
                     Debug.Log("-=-= buy iapp 0");
                     if (IAPManager.Instance != null && IAPManager.Instance.IsInitialized())
                     {

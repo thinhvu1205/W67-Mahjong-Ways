@@ -558,6 +558,7 @@ namespace Globals
         public static bool isErrorNet = false;
         public static string language = "en";
         public static bool isReconnect = false;
+        public static string WebgameUrl;
         public static LOGIN_TYPE typeLogin = LOGIN_TYPE.NORMAL;
 
         public static string curServerIp =
@@ -1953,7 +1954,7 @@ namespace Globals
         public static JArray ListChatWorld = new();
         public static List<ChatWorldLobbyData> ListDataChatInGame = new();
         public static Dictionary<string, List<JObject>> MultiSendChatDataD = new();
-        public static JObject JsonDataFriend=new();
+        public static JObject JsonDataFriend = new();
     }
 
     public class NativeCall
