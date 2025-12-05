@@ -122,12 +122,6 @@ public class BannerView : BaseView
 
                     SocketIOManager.getInstance().logEventSuggestBanner(2, data);
                     //}
-                    if (!string.IsNullOrEmpty(Config.WebgameUrl))
-                    {
-                        Application.OpenURL(Config.WebgameUrl);
-                        callbackClick?.Invoke();
-                        return;
-                    }
                     string type = (string)dtBtn["type"];
                     Debug.Log("Type Banner Click-" + type);
                     switch (type)

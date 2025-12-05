@@ -178,7 +178,7 @@ public class LobbyView : BaseView
 
     public void updateCanInviteFriend()
     {
-        objDot.SetActive(User.userMain.canInputInvite);
+        objDot.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && User.userMain.canInputInvite);
     }
     private void _SetPosWhenBannerActive()
     {
@@ -563,11 +563,11 @@ public class LobbyView : BaseView
     }
     public void OnClickButtonMore()
     {
-        m_PanelMore.SetActive(true);
+        m_PanelMore.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && true);
     }
     public void OnClickCloseButtonMore()
     {
-        m_PanelMore.SetActive(false);
+        m_PanelMore.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && false);
     }
     public void onClickEX()
     {
@@ -652,9 +652,9 @@ public class LobbyView : BaseView
     }
     public void updateMailandMessageNoti()
     {
-        icNotiMail.SetActive(User.userMain.mailUnRead > 0);
-        icNotiMessage.SetActive(User.userMain.messageUnRead > 0);
-        icNotiFree.SetActive(User.userMain.nmAg > 0 || Promotion.countMailAg > 0);
+        icNotiMail.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && User.userMain.mailUnRead > 0);
+        icNotiMessage.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && User.userMain.messageUnRead > 0);
+        icNotiFree.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && (User.userMain.nmAg > 0 || Promotion.countMailAg > 0));
     }
     public void UpdateJackpotPusoy()
     {
@@ -665,7 +665,7 @@ public class LobbyView : BaseView
 
     public void setNotiMessage(bool state)
     {
-        icNotiMessage.gameObject.SetActive(state);
+        icNotiMessage.gameObject.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && state);
     }
     public void showChatOnLobby(int vip, string name, string content)
     {
@@ -725,27 +725,27 @@ public class LobbyView : BaseView
 
     public void refreshUIFromConfig(bool isStart = false)
     {
-        btnEx.SetActive(Config.is_dt);
-        btnShopFull.SetActive(!Config.is_dt);
-        btnChatLobby.SetActive(Config.is_show_chat);
+        btnEx.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && Config.is_dt);
+        btnShopFull.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && !Config.is_dt);
+        btnChatLobby.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && Config.is_show_chat);
         var issket = Config.ket;
         if (User.userMain != null && User.userMain.VIP == 0)
         {
             issket = false;
         }
-        iconSafe.SetActive(Config.ket);
-        btnSafe.SetActive(issket);
+        iconSafe.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && Config.ket);
+        btnSafe.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && issket);
         m_Lottery.SetActive(Config.enableLottery);
-        lb_safe.transform.parent.gameObject.SetActive(issket);
+        lb_safe.transform.parent.gameObject.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && issket);
 
         if (issket)
             updateAgSafe();
-        btnLeaderboard.gameObject.SetActive(Config.listRankGame.Count > 0);
+        btnLeaderboard.gameObject.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && Config.listRankGame.Count > 0);
         // btnSupport.gameObject.SetActive(btnLeaderboard.activeSelf);
-        btnGiftCode.SetActive(Config.ismaqt);
+        btnGiftCode.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && Config.ismaqt);
         if (User.userMain != null)
         {
-            m_VipFarmBVF.gameObject.SetActive(User.userMain.VIP > 1);
+            m_VipFarmBVF.gameObject.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && User.userMain.VIP > 1);
             if (User.userMain.VIP > 1)
             {
                 UIManager.instance.UpdateVipFarmsList(m_VipFarmBVF, true);
