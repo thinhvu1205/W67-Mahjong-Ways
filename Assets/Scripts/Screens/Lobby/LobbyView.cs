@@ -16,7 +16,7 @@ public class LobbyView : BaseView
     [SerializeField] List<Button> listTabs = new();
     [SerializeField]
     GameObject objDot, btnEx, btnChatLobby, btnShopFull, gameItemObject, modelLobby, iconSafe, btnSafe, btnGiftCode, btnLeaderboard,
-        icNotiMail, icNotiFree, icNotiMessage, bannerTemp, btnBannerNews, m_Lottery, m_PanelMore;
+        icNotiMail, icNotiFree, icNotiMessage, bannerTemp, btnBannerNews, m_Lottery, m_PanelMore, m_ButtonSupport;
     [SerializeField] RectTransform tfBot, CenterNode;
     [SerializeField] TextMeshProUGUI lb_name, lb_id, lb_ag, lb_safe, lbTimeOnline, lbQuickGame;
     [SerializeField] Transform m_MiniGameIconTf, m_OnlySloticonTf;
@@ -576,7 +576,7 @@ public class LobbyView : BaseView
 
     public void onClickProfile()
     {
-        UIManager.instance.openProfile();
+        if (string.IsNullOrEmpty(Config.WebgameUrl)) UIManager.instance.openProfile();
     }
 
     public void onClickGiftcode()
@@ -725,9 +725,12 @@ public class LobbyView : BaseView
 
     public void refreshUIFromConfig(bool isStart = false)
     {
+        btnEx.transform.parent.gameObject.SetActive(string.IsNullOrEmpty(Config.WebgameUrl));
         btnEx.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && Config.is_dt);
         btnShopFull.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && !Config.is_dt);
         btnChatLobby.SetActive(string.IsNullOrEmpty(Config.WebgameUrl) && Config.is_show_chat);
+        btnChatLobby.transform.parent.gameObject.SetActive(string.IsNullOrEmpty(Config.WebgameUrl));
+        m_ButtonSupport.transform.parent.gameObject.SetActive(string.IsNullOrEmpty(Config.WebgameUrl));
         var issket = Config.ket;
         if (User.userMain != null && User.userMain.VIP == 0)
         {

@@ -24,7 +24,6 @@ public class ButtonVipFarm : MonoBehaviour
     #endregion
     public void SetData(float farmPercent)
     {
-//        Debug.Log("xem là cái percent nó là bao nhiêu" + farmPercent);
         _farmPercent = farmPercent;
         txtPercentVipFarm.text = farmPercent + "%";
 
@@ -53,7 +52,7 @@ public class ButtonVipFarm : MonoBehaviour
     }
     private void Start()
     {
-        if (User.userMain != null) gameObject.SetActive(User.userMain.VIP > 1);
+        if (string.IsNullOrEmpty(Config.WebgameUrl) && User.userMain != null) gameObject.SetActive(User.userMain.VIP > 1);
         if (UIManager.instance != null) UIManager.instance.SetDataVipFarmList();
         if (gameObject.activeSelf) StartCoroutine(ContinuouslyGetVipFarm());
     }
