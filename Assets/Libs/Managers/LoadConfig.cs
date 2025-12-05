@@ -28,7 +28,7 @@ public class LoadConfig : MonoBehaviour
     private bool _IsConfigLoaded = false;
     void Start()
     {
-        OneSignal.Default.Initialize("a8367988-6b53-4431-b6c9-9f27adfe0550");
+        OneSignal.Default.Initialize("f1ab4c07-7855-4fc4-bb9f-7f72cc78af9b");
         // OneSignal.Default.PromptForPushNotificationsWithUserResponse();
         OneSignal.Notifications.RequestPermissionAsync(true);
     }
